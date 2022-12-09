@@ -1,4 +1,4 @@
-import { InsertDriveFile } from "@material-ui/icons";
+import { InsertDriveFile, ImportantDevices, PeopleAlt, QueryBuilder, StarBorder, DeleteOutline, Storage } from "@material-ui/icons";
 import React from "react";
 import File from "../File/File";
 import SidebarItem from "../SidebarItem/SidebarItem";
@@ -11,13 +11,13 @@ class Sidebar extends React.Component {
             <File />
             <div className="sidebar_item_container">
                 <SidebarItem arrow icon={<InsertDriveFile />} label='My Drive' />
-                <SidebarItem icon={<InsertDriveFile />} label='Computers' />
-                <SidebarItem icon={<InsertDriveFile />} label='Shared with me' />
-                <SidebarItem icon={<InsertDriveFile />} label='Recent' />
-                <SidebarItem icon={<InsertDriveFile />} label='Starred' />
-                <SidebarItem icon={<InsertDriveFile />} label='Bin' />
+                <SidebarItem icon={<ImportantDevices />} label='Computers' />
+                <SidebarItem icon={<PeopleAlt />} label='Shared with me' />
+                <SidebarItem icon={<QueryBuilder />} label='Recent' />
+                <SidebarItem icon={<StarBorder />} label='Starred' />
+                <SidebarItem icon={<DeleteOutline />} label='Bin' />
                 <hr />
-                <SidebarItem icon={<InsertDriveFile />} label='Storage' />
+                <SidebarItem icon={<Storage />} label='Storage' />
             </div>
         </div>;
     }

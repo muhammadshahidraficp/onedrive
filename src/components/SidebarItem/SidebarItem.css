@@ -1,0 +1,21 @@
+.side_bar_item {
+    display: flex;
+    padding: 10px 0;
+    border-radius: 0 100px 100px 0;
+    /* background-color: aquamarine; */
+    align-items: center;
+}
+
+.side_bar_item_arrow {
+    width: 28px;
+    /* background-color: brown; */
+}
+
+.side_bar_item_main {
+    display: flex;
+    align-items: center;
+}
+
+.side_bar_item_main>p {
+    margin-left: 12px;
+}
