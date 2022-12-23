@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+.app_main {
+  display: flex;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
