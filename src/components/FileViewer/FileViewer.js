@@ -4,13 +4,13 @@ import FileItem from "../FileItem/FileItem";
 const FilesViewer = () => {
 
     const files = [
-        { title: "Image1.jpeg", size: 200, updatedAt: Date() },
-        { title: "Image2.jpeg", size: 100, updatedAt: Date() },
-        { title: "Image3.jpeg", size: 500, updatedAt: Date() },
-        { title: "Image4.jpeg", size: 1200, updatedAt: Date() },
-        { title: "Image5.jpeg", size: 2500, updatedAt: Date() },
-        { title: "Image6.jpeg", size: 8200, updatedAt: Date() },
-        { title: "Image7.jpeg", size: 2700, updatedAt: Date() }
+        { title: "Image1.jpeg", size: 345200777, updatedAt: Date("20-11-2022") },
+        { title: "Image2.jpeg", size: 1111123243300, updatedAt: Date() },
+        { title: "Image3.jpeg", size: 5053245230, updatedAt: Date() },
+        { title: "Image4.jpeg", size: 112700, updatedAt: Date() },
+        { title: "Image5.jpeg", size: 9992500, updatedAt: Date() },
+        { title: "Image6.jpeg", size: 8299900, updatedAt: Date() },
+        { title: "Image7.jpeg", size: 279900, updatedAt: Date() }
     ];
 
     return (<div className="fileViewer">
